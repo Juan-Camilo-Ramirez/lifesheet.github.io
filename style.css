@@ -1,0 +1,27 @@
+/* Fuente presonalizada */
+* {
+    font-family: 'Montserrat',  sans-serif;
+}
+
+.bg-primary{
+    background-color: #2c3e50 !important;
+}
+
+.text-primary{
+    color: #3499db !important;
+
+}
+
+.progress{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+/* EFECTO HOVER PARA TTARJETAS */
+.card{
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
